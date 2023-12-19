@@ -73,6 +73,59 @@ app.component.html:
 
 <br>
 
+## Instalando Angular Material no projeto
+
+- ng add @angular/material 
+- (y)
+- (n)
+
+<br>
+
+## Utilizando Angular Material [Site](https://material.angular.io/)
+
+- app.components.ts:
+
+```
+import {MatButtonModule} from '@angular/material/button';
+
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [CommonModule, RouterOutlet, Componente1Component, Componente2Component, MatButtonModule],
+...
+```
+
+<br>
+
+- app.component.html:
+```
+<section>
+    <div class="example-label">Raised</div>
+    <div class="example-button-row">
+      <button mat-raised-button color="primary">Primary</button>
+    </div>
+  </section>
+```
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
 ## Aluno
 
 ### Lucas Araujo
