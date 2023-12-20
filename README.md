@@ -76,12 +76,13 @@ app.component.html:
 ## Instalando Angular Material no projeto
 
 - ng add @angular/material 
-- (y)
-- (n)
+- continua? (y)
+- escolha do tema
+- incluir animações (y)
 
 <br>
 
-## Utilizando Angular Material [Site](https://material.angular.io/)
+## Utilizando Angular Material - [site](https://material.angular.io/)
 
 - app.components.ts:
 
