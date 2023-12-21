@@ -49,7 +49,7 @@ import { Componente2Component } from './componente2/componente2.component'
 
 <br>
 
-## Importando Bootstrap
+## Bootstrap (CDN do site) - Opção 1
 
 - index.html:
 
@@ -69,6 +69,29 @@ app.component.html:
 
 ```
 <button type="button" class="btn btn-primary">Primary</button>
+```
+
+<br>
+
+## Bootstrap (via NPM) - Opção 2
+
+```
+npm install bootstrap
+```
+
+<br>
+
+angular.json:
+
+```
+"styles": [
+  "@angular/material/prebuilt-themes/indigo-pink.css",
+  "node_modules/bootstrap/dist/css/bootstrap.css",
+  "src/styles.css"
+  ],
+"scripts": [
+  "node_modules/bootstrap/dist/js/bootstrap.js"
+  ]
 ```
 
 <br>
